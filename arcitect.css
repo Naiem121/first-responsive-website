@@ -1,5 +1,5 @@
 /*work sans font from google font */
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 /* shared styles*/
   *{
     font-family: 'Open Sans', sans-serif;
@@ -68,8 +68,14 @@ color: #424242;
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .tems-container
+    {
         flex-direction: column;
+    }
+    .tems-contant{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -78,18 +84,21 @@ color: #424242;
     header{
         padding: 50px;
     }
-    nav{
+    nav, .tems-container {
     flex-direction: column;
-  }  
+  } 
+  .tems-img-container{
+    grid-template-columns: 1fr;
+  } 
 }
 
 /*main styles*/
 
 main{
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 70px auto;
 }
-/*tems styles*/
+/*teams styles*/
 .tems-container{
 
     display: flex;
@@ -113,6 +122,8 @@ main{
 }
 .tems-title .text-fetures{
     color: #FF900E;
-    font-weight: 700;
-    
+    font-weight: 700;  
+}
+.tems-discription{
+    color: gray;
 }
