@@ -82,3 +82,37 @@ color: #424242;
     flex-direction: column;
   }  
 }
+
+/*main styles*/
+
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+/*tems styles*/
+.tems-container{
+
+    display: flex;
+    align-items: center;
+}
+.tems-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.tems-contant{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.tems-title{
+    font-size: 2.8rem;
+}
+.tems-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.tems-title .text-fetures{
+    color: #FF900E;
+    font-weight: 700;
+    
+}
